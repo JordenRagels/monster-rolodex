@@ -27,12 +27,9 @@ render() {
     )
   return (
     <div className='App'>
-    <SearchBox 
-      placeholder='search monsters'
-      handleChange={e => this.setState({ searchField: e.target.value })}
-    />
-    <CardList monsters={filteredMonsters}>
-    </CardList>
+    <h1> Monster Rolodex </h1>
+    <SearchBox placeholder={'search monsters'} onSearchChange={this.onSearchChange}/>
+    <CardList monsters={filteredMonsters}/>
     </div>
   );
 }
