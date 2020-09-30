@@ -1,4 +1,4 @@
-Created a rolodex for monsters using an api. Url: 
+Created a rolodex for monsters using an api. Url: https://jordenragels.github.io/monster-rolodex/
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
