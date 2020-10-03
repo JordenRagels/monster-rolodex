@@ -7,7 +7,8 @@ import './search-box.styles.css';
     className='search'
     type='search' 
     placeholder={placeholder} 
-    onChange={handleChange} 
+    onChange={handleChange}
+    data-test='search'
     /> 
 );
 
